@@ -2,14 +2,16 @@
 [![build status](https://img.shields.io/travis/souhe/reactScrollbar/master.svg?style=flat-square)](https://travis-ci.org/souhe/reactScrollbar)
 [![npm package](https://img.shields.io/npm/v/react-scrollbar.svg?style=flat-square)](https://www.npmjs.org/package/react-scrollbar)
 [![npm downloads](https://img.shields.io/npm/dm/react-scrollbar.svg?style=flat-square)](https://www.npmjs.org/package/react-scrollbar)
-# react-scrollbar
+# react-scrollbar-simple
+
+Forked from [react-scrollbar](https://github.com/souhe/reactScrollbar)
 
 Simple ScrollArea component built for [React](http://facebook.github.io/react/).
 
 [Demo](http://souhe.github.io/reactScrollbar)
 
 ```bash
-npm install react-scrollbar --save
+npm install react-scroll-simple --save
 ```
 
 React Scrollbar requires **React 0.13 or later**
