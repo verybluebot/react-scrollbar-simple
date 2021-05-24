@@ -108,6 +108,7 @@ export default class ScrollArea extends React.Component {
                 scrollbarStyle={this.props.verticalScrollbarStyle}
                 smoothScrolling={withMotion}
                 minScrollSize={this.props.minScrollSize}
+                maxScrollSize={this.props.maxScrollSize}
                 onFocus={this.focusContent.bind(this)}
                 type="vertical"/>
         ) : null;
@@ -124,6 +125,7 @@ export default class ScrollArea extends React.Component {
                 scrollbarStyle={this.props.horizontalScrollbarStyle}
                 smoothScrolling={withMotion}
                 minScrollSize={this.props.minScrollSize}
+                maxScrollSize={this.props.maxScrollSize}
                 onFocus={this.focusContent.bind(this)}
                 type="horizontal"/>
         ) : null;
@@ -477,6 +479,7 @@ ScrollArea.propTypes = {
     ownerDocument: PropTypes.any,
     smoothScrolling: PropTypes.bool,
     minScrollSize: PropTypes.number,
+    maxScrollSize: PropTypes.number,
     swapWheelAxes: PropTypes.bool,
     stopScrollPropagation: PropTypes.bool,
     focusableTabIndex: PropTypes.number,

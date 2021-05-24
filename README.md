@@ -107,6 +107,7 @@ then open [http://localhost:8003](http://localhost:8003).
         ownerDocument={Object}
         smoothScrolling={Boolean}
         minScrollSize={Number}
+        maxScrollSize={Number}
         swapWheelAxes={Boolean}
         stopScrollPropagation={Boolean}
         focusableTabIndex={Number}
@@ -173,6 +174,10 @@ When set to true, smooth scrolling for both scrollbars is enabled.
 
 #### minScrollSize
 Using this prop it's possible to set minimal size in px for both scrollbars.
+
+#### maxScrollSize
+Using this prop it's possible to set maximal size in px for both scrollbars.
+
 
 #### swapWheelAxes
 After set to true, mouse wheel event has swapped directions. So normal scrolling moves horizontal scrollbar and scrolling with SHIFT key moves vertical scrollbar. It could be useful for applications with horizontal layout.
